@@ -126,7 +126,7 @@ namespace Craps_Example
                 default:
                     turn = false;
                     currentPoint = roll;
-                    rtbDisplay.Text += $"Round 2! Current poins - {currentPoint}\n";
+                    rtbDisplay.Text += $"\nRound 2! Current point - {currentPoint}\n";
                     break;
 
             }
@@ -146,7 +146,7 @@ namespace Craps_Example
 
         public void NewRound()
         {
-            rtbDisplay.Text += "New Round! Place you bets!\n";
+            rtbDisplay.Text += "\nNew Round! Place you bets!\n";
             turn = true;
             roundOver = true;
         } // StartOver()

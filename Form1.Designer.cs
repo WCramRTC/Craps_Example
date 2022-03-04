@@ -157,7 +157,7 @@
             // 
             this.btnReset.Location = new System.Drawing.Point(42, 495);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(75, 39);
+            this.btnReset.Size = new System.Drawing.Size(135, 39);
             this.btnReset.TabIndex = 12;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -182,7 +182,7 @@
             this.Controls.Add(this.disAmount);
             this.Controls.Add(this.lblAmount);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Craps";
             this.ResumeLayout(false);
             this.PerformLayout();
 
